@@ -227,5 +227,5 @@
         android:layout_gravity="bottom"
 
         app:layout_behavior="com.google.android.material.behavior.HideBottomViewOnScrollBehavior"
-        app:menu="@menu/nevigation_menu" />
+        app:menu="@menu/navigations" />
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
