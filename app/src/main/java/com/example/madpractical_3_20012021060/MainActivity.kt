@@ -1,5 +1,6 @@
 package com.example.madpractical_3_20012021060
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.core.view.WindowCompat
@@ -14,5 +15,6 @@ class MainActivity : AppCompatActivity() {
         setContentView(binding.root)
 
         setSupportActionBar(binding.toolbar)
+        Intent(this, LoginActivity::class.java).also {startActivity(it)}
     }
 }
